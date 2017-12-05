@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CalendarUserControl
+</name>
+</assembly>
+<members>
+<member name="T:CalendarUserControl.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:CalendarUserControl.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:CalendarUserControl.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.BusinessScheduleEditControl_Load(System.Object,System.EventArgs)">
+ <summary>
+ 画面初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.C1FlexGrid1_CellChanged(System.Object,C1.Win.C1FlexGrid.RowColEventArgs)">
+ <summary>
+ 予定情報編集後処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.C1FlexGrid1_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Drag＆Drop操作開始処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.C1FlexGrid1_DragDrop(System.Object,System.Windows.Forms.DragEventArgs)">
+ <summary>
+ Drag＆Drop操作終了処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="P:CalendarUserControl.BusinessScheduleEditControl.StartDay">
+ <summary>
+ カレンダーの最初日を取得及び設定します。
+ </summary>
+ <returns>Date</returns>
+</member>
+<member name="P:CalendarUserControl.BusinessScheduleEditControl.EndDay">
+ <summary>
+ カレンダーの最終日を取得します。
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:CalendarUserControl.BusinessScheduleEditControl.DeleteRows">
+ <summary>
+ 削除した予定情報を取得
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.ReDrawCalendar">
+ <summary>
+ カレンダーRefreshメソッド
+ </summary>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.SetCalendarInfo(System.DateTime,C1.Win.C1FlexGrid.CellRange,C1.Win.C1FlexGrid.CellRange,C1.Win.C1FlexGrid.CellRange)">
+ <summary>
+ カレンダーのセルに情報やスタイルを設定する方法です。
+ </summary>
+ <param name="day">予定日</param>
+ <param name="lblDay">予定日セル</param>
+ <param name="lblDayName">曜日セル</param>
+ <param name="txtSchedule">予定情報セル</param>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.GetDayName(System.DateTime)">
+ <summary>
+ 漢字曜日を戻ります。
+ </summary>
+ <param name="day">予定日</param>
+ <returns>String</returns>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.StartDayChanged">
+ <summary>
+ カレンダーの最初日が変わる次第、カレンダーを再描く
+ </summary>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.SetScheduleCellStyle(C1.Win.C1FlexGrid.CellRange,System.DateTime)">
+ <summary>
+ 予定情報編集結果より、セルのスタイルをセットします。
+ </summary>
+ <param name="c">予定情報セル</param>
+ <param name="day">予定日</param>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.GetTaskCellColumnIndex(System.Int32)">
+ <summary>
+指定されたコラムインディクスより、関連の予定情報コラムインディクスを計算します。 
+ </summary>
+ <param name="currentCol">指定されたコラムインディクス</param>
+ <returns>関連の予定情報コラムインディクス</returns>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.GetTaskDateColumnIndex(System.Int32)">
+ <summary>
+ 指定されたコラムインディクスより、関連の予定日コラムインディクスを計算します。 
+ </summary>
+ <param name="currentCol">指定されたコラムインディクス</param>
+ <returns>関連の予定日コラムインディクス</returns>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.MoveTaskData(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ DragAndDrop操作で予定情報移動します。
+ </summary>
+ <param name="srcRow">移動先の行インディクス</param>
+ <param name="srcCol">移動先の列インディクス</param>
+</member>
+<member name="M:CalendarUserControl.BusinessScheduleEditControl.CopyTaskData(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ DragAndDrop操作で予定情報コピーします。
+ </summary>
+ <param name="srcRow">コピー先の行インディクス</param>
+ <param name="srcCol">コピー先の列インディクス</param>
+</member>
+</members>
+</doc>

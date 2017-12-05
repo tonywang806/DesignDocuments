@@ -1,0 +1,133 @@
+﻿$axure.loadCurrentPage({
+  "url":"受注・折入力画面.html",
+  "generationDate":new Date(1492145953713.26),
+  "isCanvasEnabled":false,
+  "variables":["LoadVariables",
+"isOverride",
+"SelectedPatternText",
+"CanntCloseWindow",
+"CurrentTaskName"],
+  "page":{
+    "packageId":"fb5b9199b476402cb981fa3181b2e2a0",
+    "type":"Axure:Page",
+    "name":"受注・折入力画面",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"e7994a605305412cb6f055fea45cbe34",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+},
+          "adaptiveStyles":{
+},
+          "masterId":"3d4e17c0585e4b27beaaa2f2e7c990d7"}]}},
+  "masters":{
+    "3d4e17c0585e4b27beaaa2f2e7c990d7":{
+      "packageId":"3d4e17c0585e4b27beaaa2f2e7c990d7",
+      "type":"Axure:Master",
+      "name":"DialogWinForm",
+      "notes":{
+},
+      "style":{
+        "baseStyle":"627587b6038d43cca051c114ac41ad32",
+        "pageAlignment":"near",
+        "fill":{
+          "fillType":"solid",
+          "color":0xFFFFFFFF},
+        "image":null,
+        "imageHorizontalAlignment":"near",
+        "imageVerticalAlignment":"near",
+        "imageRepeat":"auto",
+        "favicon":null,
+        "sketchFactor":"0",
+        "colorStyle":"appliedColor",
+        "fontName":"Applied Font",
+        "borderWidth":"0"},
+      "adaptiveStyles":{
+},
+      "interactionMap":{
+},
+      "diagram":{
+        "objects":[{
+            "id":"d75c6b9fe0bc4a7a9c3e20e1b406a899",
+            "label":"",
+            "type":"buttonShape",
+            "styleType":"buttonShape",
+            "visible":true,
+            "style":{
+              "size":{
+                "width":1280,
+                "height":760},
+              "borderFill":{
+                "fillType":"solid",
+                "color":0xFF666666},
+              "outerShadow":{
+                "on":true,
+                "offsetX":5,
+                "offsetY":5,
+                "blurRadius":5,
+                "color":{
+                  "r":0,
+                  "g":0,
+                  "b":0,
+                  "a":0.349019607843137}}},
+            "adaptiveStyles":{
+},
+            "objects":[{
+                "id":"a77986c719704775bf78beebaa92b6b1",
+                "label":"",
+                "isContained":true,
+                "type":"richTextPanel",
+                "styleType":"paragraph",
+                "visible":true,
+                "style":{
+                  "size":{
+                    "width":1280,
+                    "height":760},
+                  "borderFill":{
+                    "fillType":"solid",
+                    "color":0xFF666666},
+                  "outerShadow":{
+                    "on":true,
+                    "offsetX":5,
+                    "offsetY":5,
+                    "blurRadius":5,
+                    "color":{
+                      "r":0,
+                      "g":0,
+                      "b":0,
+                      "a":0.349019607843137}}},
+                "adaptiveStyles":{
+}}],
+            "images":{
+              "normal~":"images/納入先入力画面/u1.png"}}]}}},
+  "objectPaths":{
+    "e7994a605305412cb6f055fea45cbe34":{
+      "scriptId":"u0",
+      "d75c6b9fe0bc4a7a9c3e20e1b406a899":{
+        "scriptId":"u1"},
+      "a77986c719704775bf78beebaa92b6b1":{
+        "scriptId":"u2"}}}});

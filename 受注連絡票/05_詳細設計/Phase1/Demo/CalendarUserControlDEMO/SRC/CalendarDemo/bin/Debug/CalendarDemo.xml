@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CalendarDemo
+</name>
+</assembly>
+<members>
+<member name="T:CalendarDemo.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CalendarDemo.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CalendarDemo.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CalendarDemo.BusinessScheduleEditDemo.Form3_Load(System.Object,System.EventArgs)">
+ <summary>
+ 画面初期化
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarDemo.BusinessScheduleEditDemo.btnBack_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダーが先週に移動
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarDemo.BusinessScheduleEditDemo.btnForward_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダーが来週に移動
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarDemo.BusinessScheduleEditDemo.SetTimeSpanText">
+ <summary>
+ カレンダーの期間を表示
+ </summary>
+</member>
+<member name="M:CalendarDemo.BusinessScheduleEditDemo.C1List1_Click(System.Object,System.EventArgs)">
+ <summary>
+ 予定情報一覧に指定される予定情報が目の前に表示します。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CalendarDemo.BusinessScheduleEditDemo.Button4_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除した予定の番号を表示します。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
